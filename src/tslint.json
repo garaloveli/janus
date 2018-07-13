@@ -4,13 +4,13 @@
         "directive-selector": [
             true,
             "attribute",
-            "ont",
+            "jns",
             "camelCase"
         ],
         "component-selector": [
             true,
             "element",
-            "ont",
+            "jns",
             "kebab-case"
         ]
     }

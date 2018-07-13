@@ -1,11 +1,13 @@
 # Janus
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+- *Goal*: Migrate playlists and songs from one account to another
+- *Audience*: People who wants to unlink their facebook accounts from spotify account and create a new one with email without loosing their music
+- *Content*: One page that allows you to migrate your lists and songs
+- *Navigation*: Also provided by Janus in a text document
 
-- Goal: Migrate playlists and songs from one account to another
-- Audience: People who wants to unlink their facebook accounts from spotify account and create a new one with email without loosing their music
-- Content: One page that allows you to migrate your lists and songs
-- Navigation: Also provider  
+## Color Palette
+
+
 
 ## Development server
 
