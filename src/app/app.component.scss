@@ -1,0 +1,96 @@
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../assets/img/action-adult-daylight.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.action-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 200%;
+    font-weight: 300;
+    margin: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+/* ---------- LOGO ---------- */
+
+.logo {
+    height: 80px;
+    width: auto;
+    float: left;
+    margin: 20px 0;
+}
+
+/* ---------- NAVIGATION ---------- */
+.main-nav {
+    float: right;
+    list-style: none;
+    margin: 20px 0;
+
+    li {
+        display: inline-block;
+        margin: 0 20px;
+
+        a:link,
+        a:visited {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 80%;
+        }
+
+        a:hover,
+        a:active {
+            padding: 8px 0;
+            border-bottom: 2px solid #60A3BC;
+        }
+    }
+}
+
+/* ---------- BUTTONS ---------- */
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #ffffff;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #60A3BC;
+    border: 1px solid #60A3BC;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #60A3BC;
+    color: #60A3BC;
+}
+
+.btn:hover,
+.btn:active {
+    border-color: #408098;
+    background-color: #408098;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    color: #ffffff;
+}
